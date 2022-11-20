@@ -14,7 +14,26 @@ function randomBytes (n) {
   return b
 }
 
+function findBuf (arr, buf) {
+  return arr.findIndex(k => k.equals(buf)) >= 0
+}
+
+function checkAllowList (allow, k) {
+  return findBuf(allow, k)
+}
+
+function prepKeyList (keys) {
+  return keys.map(pk => prepKey(pk))
+}
+
+function prepKey (k) {
+  return Buffer.from(k, 'hex')
+}
+
 module.exports = {
+  checkAllowList: checkAllowList,
+  prepKeyList: prepKeyList,
+  prepKey: prepKey,
   randomBytes: randomBytes,
   parseKeyPair: parseKeyPair
 }
