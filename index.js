@@ -31,9 +31,9 @@ function prepKey (k) {
 }
 
 module.exports = {
-  checkAllowList: checkAllowList,
-  prepKeyList: prepKeyList,
-  prepKey: prepKey,
-  randomBytes: randomBytes,
-  parseKeyPair: parseKeyPair
+  checkAllowList,
+  prepKeyList,
+  prepKey,
+  randomBytes,
+  parseKeyPair
 }
