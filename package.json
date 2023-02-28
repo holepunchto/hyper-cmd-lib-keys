@@ -1,6 +1,6 @@
 {
   "name": "hyper-cmd-lib-keys",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "HyperCmd Keys lib",
   "main": "index.js",
   "dependencies": {
@@ -8,12 +8,12 @@
   "devDependencies": {},
   "repository": {
     "type": "git",
-    "url": "https://github.com/prdn/hyper-cmd-lib-keys.git"
+    "url": "https://github.com/holepunchto/hyper-cmd-lib-keys.git"
   },
   "author": "Paolo Ardoino (@prdn)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/prdn/hyper-cmd-lib-keys/issues"
+    "url": "https://github.com/holepunchto/hyper-cmd-lib-keys/issues"
   },
-  "homepage": "https://github.com/prdn/hyper-cmd-lib-keys"
+  "homepage": "https://github.com/holepunchto/hyper-cmd-lib-keys"
 }
