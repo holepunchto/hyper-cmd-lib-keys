@@ -3,7 +3,9 @@
   "version": "0.1.0",
   "description": "HyperCmd Keys lib",
   "main": "index.js",
-  "dependencies": {},
+  "dependencies": {
+    "sodium-universal": "^4.0.1"
+  },
   "devDependencies": {},
   "repository": {
     "type": "git",
