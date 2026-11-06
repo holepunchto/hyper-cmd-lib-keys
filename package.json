@@ -1,6 +1,6 @@
 {
   "name": "hyper-cmd-lib-keys",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "HyperCmd Keys lib",
   "main": "index.js",
   "dependencies": {
